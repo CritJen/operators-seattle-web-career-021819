@@ -22,6 +22,7 @@ describe "Operations" do
   describe "#not_safe?" do
     it 'returns true if speed is greater than 60' do
       answer = not_safe?(79)
+      binding.pry
       expect(answer).to eq(true)
     end
 
